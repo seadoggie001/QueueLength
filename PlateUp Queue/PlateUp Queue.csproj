@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>12.0</LangVersion>
+    <RootNamespace>PlateUp_Queue</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <SteamInstallDirectory>/home/seadoggie/.local/share/Steam/</SteamInstallDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="KitchenMods">
+      <HintPath>$(SteamInstallDirectory)steamapps/common/PlateUp/PlateUp/PlateUp_Data/Managed/KitchenMods.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Yariazen.PlateUp.ModBuildUtilities" Version="1.13.0" />
+  </ItemGroup>
+  
+</Project>
