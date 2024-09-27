@@ -1,7 +1,5 @@
 using Kitchen;
 using KitchenLib.Preferences;
-using KitchenLib.Utils;
-using System.Linq;
 using Unity.Collections;
 using Unity.Entities;
 
@@ -22,7 +20,6 @@ internal class QueueLengthController : NightSystem
         ScheduledCustomers = GetEntityQuery(typeof(CScheduledCustomer));
         StandardCustomers = 0;
         RushCustomers = 0;
-        Main.PreferenceManager = new(Main.MOD_GUID);
     }
 
     protected override void OnUpdate()

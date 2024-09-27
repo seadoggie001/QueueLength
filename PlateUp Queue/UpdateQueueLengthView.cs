@@ -2,7 +2,6 @@ using Kitchen;
 using Unity.Entities;
 using Unity.Collections;
 using KitchenData;
-using KitchenLib.Utils;
 using KitchenQueue.Patches;
 using KitchenLib.Preferences;
 
@@ -23,7 +22,6 @@ public class UpdateQueueLengthView : ParametersDisplayView.UpdateView
             .All(typeof(CLinkedView),
                     typeof(CParametersDisplay)));
         RequireSingletonForUpdate<SKitchenParameters>();
-        Main.PreferenceManager = new(Main.MOD_GUID);
     }
 
     protected override void OnUpdate()
