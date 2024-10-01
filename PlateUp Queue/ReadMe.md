@@ -1,0 +1,1 @@
+Press `Ctrl + Shift + T` to open the KitchenLib Dev GUI. On the left, select "Queue Info" to view the current queue info and max queue info. Queued groups and customers includes those already sitting at coffee tables.

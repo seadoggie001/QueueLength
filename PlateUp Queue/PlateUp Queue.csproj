@@ -5,7 +5,7 @@
     <LangVersion>12.0</LangVersion>
     <RootNamespace>PlateUp_Queue</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <SteamInstallDirectory>/home/seadoggie/.local/share/Steam/</SteamInstallDirectory>
   </PropertyGroup>
 
